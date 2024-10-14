@@ -1,0 +1,11 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 1000000000,
+            "driver": "SQLite",
+            "name": "Kontakty",
+            "database": "${workspaceFolder:Projekt NetPC}/Projekt-NETPC/Kontakty.sqlite"
+        }
+    ]
+}

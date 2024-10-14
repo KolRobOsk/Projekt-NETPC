@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/steff/Dokumenty/Projekt NetPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/NetPC-Projekt-Kolke-Robert.csproj": {}
+  },
+  "projects": {
+    "/home/steff/Dokumenty/Projekt NetPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/NetPC-Projekt-Kolke-Robert.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/steff/Dokumenty/Projekt NetPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/NetPC-Projekt-Kolke-Robert.csproj",
+        "projectName": "NetPC-Projekt-Kolke-Robert",
+        "projectPath": "/home/steff/Dokumenty/Projekt NetPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/NetPC-Projekt-Kolke-Robert.csproj",
+        "packagesPath": "/home/steff/.nuget/packages/",
+        "outputPath": "/home/steff/Dokumenty/Projekt NetPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/steff/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.19, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.19, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.19, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.19, )"
+            },
+            "sqlite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.119/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

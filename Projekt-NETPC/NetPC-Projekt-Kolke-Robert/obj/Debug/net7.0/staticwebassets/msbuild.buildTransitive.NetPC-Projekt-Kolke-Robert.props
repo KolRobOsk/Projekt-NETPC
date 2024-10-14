@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/NetPC-Projekt-Kolke-Robert.props" />
+</Project>
