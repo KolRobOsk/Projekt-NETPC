@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4tU8BMGuA2iaR8IsLKczbREbP9ZjF70qqyzcA9EevbD6HoLwtzaWbcRCooTL4X4lUp88tpqNeV8mwCm3fVcaPw==",
+  "dgSpecHash": "rPUBEFFiYmph3lndJJbhHGjne5H7IobMeG0Hx6xaok/IKG58Dk2FYt31Ayb3O83VcNopYpvTKVY267749JcCMQ==",
   "success": true,
-  "projectFilePath": "/home/steff/Dokumenty/Projekt NetPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/NetPC-Projekt-Kolke-Robert.csproj",
+  "projectFilePath": "/home/steff/Dokumenty/Projekt-NETPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/NetPC-Projekt-Kolke-Robert.csproj",
   "expectedPackageFiles": [
     "/home/steff/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/home/steff/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

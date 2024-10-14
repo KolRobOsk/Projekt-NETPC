@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/steff/Dokumenty/Projekt NetPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/NetPC-Projekt-Kolke-Robert.csproj": {}
+    "/home/steff/Dokumenty/Projekt-NETPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/NetPC-Projekt-Kolke-Robert.csproj": {}
   },
   "projects": {
-    "/home/steff/Dokumenty/Projekt NetPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/NetPC-Projekt-Kolke-Robert.csproj": {
+    "/home/steff/Dokumenty/Projekt-NETPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/NetPC-Projekt-Kolke-Robert.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/steff/Dokumenty/Projekt NetPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/NetPC-Projekt-Kolke-Robert.csproj",
+        "projectUniqueName": "/home/steff/Dokumenty/Projekt-NETPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/NetPC-Projekt-Kolke-Robert.csproj",
         "projectName": "NetPC-Projekt-Kolke-Robert",
-        "projectPath": "/home/steff/Dokumenty/Projekt NetPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/NetPC-Projekt-Kolke-Robert.csproj",
+        "projectPath": "/home/steff/Dokumenty/Projekt-NETPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/NetPC-Projekt-Kolke-Robert.csproj",
         "packagesPath": "/home/steff/.nuget/packages/",
-        "outputPath": "/home/steff/Dokumenty/Projekt NetPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/obj/",
+        "outputPath": "/home/steff/Dokumenty/Projekt-NETPC/Projekt-NETPC/NetPC-Projekt-Kolke-Robert/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/steff/.nuget/NuGet/NuGet.Config"

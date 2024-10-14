@@ -4,7 +4,57 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Scaffolding.Metadata;
 using Microsoft.EntityFrameworkCore.Storage;
 using NetPC_Projekt_Kolke_Robert.Data;
+using Microsoft.Data.SqlClient;
+using System;
+using System.Threading.Tasks;
+
 var builder = WebApplication.CreateBuilder(args);
+
+namespace sqltest
+{
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            var builder = new SqlConnectionStringBuilder
+            {
+                DataSource = "<Kontakty.sqlite>",
+                InitialCatalog = "<your_database>"
+            };
+
+            var connectionString = builder.ConnectionString;
+
+            try
+            {
+                await using var connection = new SqlConnection(connectionString);
+                Console.WriteLine("\nQuery data example:");
+                Console.WriteLine("=========================================\n");
+
+                await connection.OpenAsync();
+
+                var sql = "SELECT name, collation_name FROM sys.databases";
+                await using var command = new SqlCommand(sql, connection);
+                await using var reader = await command.ExecuteReaderAsync();
+
+                while (await reader.ReadAsync())
+                {
+                    Console.WriteLine("{0} {1}", reader.GetString(0), reader.GetString(1));
+                }
+            }
+            catch (SqlException e) when (e.Number == /* specific error number */)
+            {
+                Console.WriteLine($"SQL Error: {e.Message}");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
+
+            Console.WriteLine("\nDone. Press enter.");
+            Console.ReadLine();
+        }
+    }
+}
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");

@@ -5,7 +5,7 @@
             "previewLimit": 1000000000,
             "driver": "SQLite",
             "name": "Kontakty",
-            "database": "${workspaceFolder:Projekt NetPC}/Projekt-NETPC/Kontakty.sqlite"
+            "database": "./Projekt-NETPC/Projekt-NETPC/Kontakty.sqlite"
         }
     ]
 }
